@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/simulator.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container mt-5">
+        <h2 class="text-centers">Simulation</h2>
+        <h3>Lorem</h3>
+        <div class="explanation d-flex flex-column justify-content-center align-items-center">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, sed explicabo aliquam harum odio placeat cupiditate dolores labore in. Soluta explicabo facere aspernatur exercitationem, laboriosam possimus facilis provident placeat culpa! Eum,
+                sed explicabo aliquam harum odio placeat cupiditate dolores labore in.
+            </p>
+        </div>
+    </section>
+    <div class="container far d-flex justify-content-between mt-5">
+        <div class="input">
+            <h1>Input</h1>
+            <div class="mt-4">
+                <img onclick=" clicked(event) " id="i1 " src="../res/img/exposure.png " alt=" ">
+                <b>                <p>Light Sensor</p></b>
+            </div>
+            <div>
+                <img onclick="clicked(event) " id="i2 " src="../res/img/sensor.png " alt=" ">
+                <b><p>Movement Sensor</p></b>
+
+            </div>
+            <div>
+                <img onclick="clicked(event) " id="i3 " src="../res/img/microphone.png " alt=" ">
+                <b><p>Sound Sensor</p></b>
+
+            </div>
+        </div>
+        <div style="width: 5px;height: 500px;"></div>
+        <div class="output ">
+            <h1>Output</h1>
+            <div class="mt-4">
+                <img onclick="clicked(event) " id="o1 " src="../res/img/lightbulbon.png " alt=" ">
+                <b><p>Light On</p></b>
+
+            </div>
+            <div>
+                <img onclick="clicked(event) " id="o2 " src="../res/img/lightbulbon.png " alt=" ">
+                <b><p>...</p></b>
+
+            </div>
+            <div>
+                <img onclick="clicked(event) " id="o3 " src="../res/img/volume.png " alt=" ">
+                <b><p>Sound!</p></b>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="../js/simulator.js "></script>
+    <script src="../js/utils.js "></script>
+</body>
+
+</html>
